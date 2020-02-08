@@ -1,0 +1,23 @@
+{
+  "name": "proyecto1",
+  "version": "0.0.1",
+  "description": "Proyecto 1, Tópicos Especiales en Telemática",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgiraldog/proyecto1.git"
+  },
+  "author": "Sebastián Giraldo Gómez (sgiraldog)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgiraldog/proyecto1/issues"
+  },
+  "homepage": "https://github.com/sgiraldog/proyecto1#readme",
+  "dependencies": {
+    "countries-list": "^2.5.1"
+  }
+}
