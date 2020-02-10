@@ -5,49 +5,49 @@
 #### Correo: sgiraldog@eafit.edu.co
 
 
-### Preguntas:
+## Preguntas:
 
-#### ¿Qué tecnología de desarrollo utilizó?
+### ¿Qué tecnología de desarrollo utilizó?
 
-##### Backend
+#### Backend
 Express: framework de desarrollo web para Node.js.
 
-##### Frontend
+#### Frontend
 Angular: framework de desarrollo web basado en TypeScript.
 
-#### Modelo de datos:
+### Modelo de datos:
 
 Usuario: Id, email, nombre, contraseña, apiKey.
 Registro: Id, temperatura, humedad, gps(lat,long), userId, apiKey, timestamp.
 
-#### ¿Cuáles son y cuál es la específicación de los servicios API REST del backend?
+### ¿Cuáles son y cuál es la específicación de los servicios API REST del backend?
 
-##### Autenticación:
+#### Autenticación:
 
-###### Login:
+##### Login:
 Objetivo: Verificar que el usuario exista en la base de datos y sus credenciales estén correctas.
 Parámetros: Email y contraseña.
 Respuesta: UserId y token o mensaje de error.
 
-###### Registro:
+##### Registro:
 Objetivo: Registrar un usuario en la base de datos.
 Parámetros: Email, nombre y contraseña.
 Respuesta: Mensaje de éxito o error.
 
 
-##### Datos arduíno:
+#### Datos arduíno:
 
-###### Crear registro:
+##### Crear registro:
 Objetivo: Agregar un nuevo registro de sensores a la base de datos.
 Parámetros: Temperatura, Humedad, apiKey, gps(lat,long).
 Respuesta: Objeto tipo registro o mensaje de error.
 
-###### Listar registros por usuario:
+##### Listar registros por usuario:
 Objetivo: Ver todos los registros asociados a un usuario.
 Parámetros: Id del usuario.
 Respuesta: Lista de objetos tipo registro o mensaje de error.
 
-#### ¿Cómo realizó la autenticación de los servicios API REST?
+### ¿Cómo realizó la autenticación de los servicios API REST?
 
 
 
