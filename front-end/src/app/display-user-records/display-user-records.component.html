@@ -1,0 +1,35 @@
+
+<a (click)="onLogout()" class="btn btn-info btn-lg myButton">
+    <span class="glyphicon glyphicon-log-out"></span> Log out
+  </a>
+
+<div class="data-box">
+    <div class="login-logo">
+        <a ><img src="https://pbs.twimg.com/profile_images/1018928763168583680/5YEJpotE_400x400.jpg" width="64" height="64" alt="My Ad Cubes"></a>
+    </div><!-- /.login-logo -->
+    <div class="login-box-body">
+        <p class="login-box-msg">Data History</p>
+    <table *ngIf="arrRecords" class="table table table-striped table-bordered">
+        <!-- ADD HEADERS -->
+        <thead>
+        <tr>
+            <th scope="col"> Temperature</th>
+                <th scope="col">Humidity</th>
+                    <th scope="col">Latitude</th>
+                        <th scope="col">Longitude</th>
+                            <th scope="col">Created At</th>
+        </tr>
+        </thead>
+        <!-- BIND ARRAY TO TABLE -->
+        <tbody>
+        <tr *ngFor="let record of arrRecords">
+            <td>{{record.temperature}}</td>
+                <td>{{record.humidity}}</td>
+                    <td>{{record.gps.lat}}</td>
+                        <td>{{record.gps.long}}</td>
+                            <td>{{record.createdAt}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div><!-- /.login-box-body -->
+</div>

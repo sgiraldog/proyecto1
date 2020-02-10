@@ -1,4 +1,10 @@
 # Proyecto 1 - Tópicos Especiales en Telemática
 
-## Sebastián Giraldo Gómez
-## 201710025010
+#### Realizado por: Sebastián Giraldo Gómez
+#### Código: 201710025010
+#### Correo: sgiraldog@eafit.edu.co
+
+
+
+
+
