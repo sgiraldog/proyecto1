@@ -18,6 +18,7 @@ Angular: framework de desarrollo web basado en TypeScript.
 ### Modelo de datos:
 
 Usuario: Id, email, nombre, contraseña, apiKey.
+
 Registro: Id, temperatura, humedad, gps(lat,long), userId, apiKey, timestamp.
 
 ### ¿Cuáles son y cuál es la específicación de los servicios API REST del backend?
@@ -56,6 +57,7 @@ Para la app web:
 El endpoint de login genera un token y un tiempo de vida los cuales son almacenados localmente por la aplicación web y los utiliza para dos validaciones principales:
 
 -Revisar si la sesión aún está activa usando la librería "moment" para verificar el tiempo de vida del token.
+
 -Enviar el token a los endpoints que los requiera para su autenticación.
 
 Para los endpoints:
