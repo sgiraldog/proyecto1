@@ -6,8 +6,8 @@
 
 
 # Nota
-Se adjunta colección y ambiente de postman para ayudar a entender el uso de los endpoints.
-[Postman](./postman/)
+Se adjunta colección y ambiente de [postman](./postman/) para ayudar a entender el uso de los endpoints.
+
 
 ## Preguntas:
 
