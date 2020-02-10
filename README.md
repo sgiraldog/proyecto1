@@ -5,6 +5,10 @@
 #### Correo: sgiraldog@eafit.edu.co
 
 
+# Nota
+Se adjunta colección y ambiente de postman para ayudar a entender el uso de los endpoints.
+[Postman](./postman/)
+
 ## Preguntas:
 
 ### ¿Qué tecnología de desarrollo utilizó?
